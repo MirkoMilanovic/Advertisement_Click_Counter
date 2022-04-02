@@ -8,15 +8,15 @@ This API access the data from the database and returns the following information
 
 ## RESOURCE METHOD CHART:
 
-| Resource        | Method | Path       | Parameter     | Status on error           |
-| --------------- | ------ | ---------- | ------------- | ------------------------- |
-| detectPNR-s     | POST   | /click     | Campaign: Int | 200: OK                   |
-|                 |        |            |               | 301: Incorrect parameters |
-|                 |        |            |               | 302: Incorrect values     |
-|                 |        |            |               |                           |
-| getDetectedPNRs | POST   | /clickTime | Campaign: Int | 200: OK                   |
-|                 |        |            | Start: String | 301: Incorrect parameters |
-|                 |        |            | End: String   | 302: Incorrect values     |
+| Resource          | Method | Path       | Parameter     | Status on error           |
+| ----------------- | ------ | ---------- | ------------- | ------------------------- |
+| geyClicks         | POST   | /click     | Campaign: Int | 200: OK                   |
+|                   |        |            |               | 301: Incorrect parameters |
+|                   |        |            |               | 302: Incorrect values     |
+|                   |        |            |               |                           |
+| getClicksTimespan | POST   | /clickTime | Campaign: Int | 200: OK                   |
+|                   |        |            | Start: String | 301: Incorrect parameters |
+|                   |        |            | End: String   | 302: Incorrect values     |
 
 ### Tests - pytest
 
