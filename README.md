@@ -10,7 +10,7 @@ This API access the data from the database and returns the following information
 
 | Resource          | Method | Path       | Parameter     | Status on error           |
 | ----------------- | ------ | ---------- | ------------- | ------------------------- |
-| geyClicks         | POST   | /click     | Campaign: Int | 200: OK                   |
+| getClicks         | POST   | /click     | Campaign: Int | 200: OK                   |
 |                   |        |            |               | 301: Incorrect parameters |
 |                   |        |            |               | 302: Incorrect values     |
 |                   |        |            |               |                           |
