@@ -1,4 +1,4 @@
-# Addvertisement click counter
+# Advertisement click counter
 
 This API access the data from the database and returns the following information: Given a campaign, the API returns the amount of clicks that were made on advertisements that belong to this campaign. One entry in the database represents one click.
 
